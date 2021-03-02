@@ -78,6 +78,7 @@ nav > ul {
   top: 33px;
   display: none;
   position: absolute;
+  z-index: 1;
 }
 .dropdown-content > a:hover {
   background-color: #bcbcbc;
@@ -129,4 +130,57 @@ input {
 
 .img-2 {
   margin: 0 10px;
+}
+.images > div > img {
+  border-bottom-right-radius: 15px;
+}
+
+.images > div {
+  position: relative;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.images > div .overlay {
+  position: absolute;
+  bottom: 7px;
+  left: 48px;
+  margin: 0 auto;
+  padding: 10px;
+  background: rgba(127, 127, 127, 0.9); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 228px; /* Full width */
+  height: 77px;
+  padding: 10px; /* Some padding */
+  border-bottom-right-radius: 15px;
+}
+
+.overlay-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+.overlay-text {
+  margin: 0;
+  font-size: 13px;
+  margin-top: 4px;
+}
+.read-more {
+  color: #fff;
+  float: left;
+  position: relative;
+  bottom: 4px;
+  font-size: 13px;
+}
+.read-more > a {
+  color: #fff;
+}
+.read-more > a:hover {
+  color: #005ca0;
+}
+.read-more > a::after {
+  content: " \2056";
+}
+.read-more::after {
+  font-size: 26px;
 }
