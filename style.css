@@ -5,7 +5,8 @@ body {
   margin: 0 auto;
   line-height: 1;
   width: 100%;
-  border: solid;
+  height: 2000px;
+  /* border: solid; */
 }
 .container {
   background-color: rgb(144, 144, 144);
@@ -128,16 +129,13 @@ input {
   display: flex;
 }
 
-.img-2 {
-  margin: 0 10px;
-}
 .images > div > img {
   border-bottom-right-radius: 15px;
 }
 
 .images > div {
   position: relative;
-  width: 40%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -149,9 +147,8 @@ input {
   padding: 10px;
   background: rgba(127, 127, 127, 0.9); /* Black background with 0.5 opacity */
   color: #f1f1f1;
-  width: 228px; /* Full width */
+  width: 228px;
   height: 77px;
-  padding: 10px; /* Some padding */
   border-bottom-right-radius: 15px;
 }
 
@@ -183,4 +180,94 @@ input {
 }
 .read-more::after {
   font-size: 26px;
+}
+
+.cubes {
+  display: flex;
+  margin: 0 auto;
+}
+
+.cubes:nth-child(2) {
+  margin: 0 11px;
+}
+
+.cube {
+  display: flex;
+  position: relative;
+  margin-top: 18px;
+  height: 216px;
+  margin-bottom: 38px;
+
+  /* width: 244px; */
+  /* padding: 0 24px; */
+}
+.overlay-cube {
+  position: absolute;
+  padding: 0 24px;
+}
+.overlay-cube-title {
+  position: relative;
+  right: 4px;
+  margin-bottom: 15px;
+  margin-top: 0;
+  /* height: 34px; */
+  line-height: 34px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.overlay-cube-image {
+  position: relative;
+}
+.overlay-cube-text {
+  position: relative;
+  /* margin-top: 15px; */
+  bottom: 5px;
+  margin-bottom: 0;
+  float: left;
+}
+.overlay-cube-text > a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #000;
+}
+.overlay-cube-text > a:hover {
+  color: #005ca0;
+}
+.overlay-cube-text > a::after {
+  content: " \2056";
+  font-size: 20px;
+  font-weight: bold;
+  color: orange;
+}
+.cubes > .cube:nth-child(2) {
+  padding: 0 8px;
+}
+
+.overlay-cube-text-left {
+  position: relative;
+  /* margin-top: 0; */
+  bottom: 15px;
+  margin-bottom: 20px;
+  float: right;
+}
+
+.overlay-cube-text-left > a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #000;
+}
+.overlay-cube-text-left > a:hover {
+  color: #005ca0;
+}
+.overlay-cube-text-left > a::after {
+  content: " \2056";
+  font-size: 20px;
+  font-weight: bold;
+  color: orange;
+}
+
+.overlay-cube-image-left {
+  position: relative;
+  right: 130px;
+  bottom: 10px;
 }
