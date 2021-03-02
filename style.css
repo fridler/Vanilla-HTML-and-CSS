@@ -2,24 +2,23 @@ body {
   text-align: right;
   direction: rtl;
   font-family: arial;
-  margin: 0;
+  margin: 0 auto;
   line-height: 1;
+  width: 100%;
+  border: solid;
+}
+.container {
+  background-color: rgb(144, 144, 144);
 }
 
 header {
-  background-color: rgb(144, 144, 144);
-  min-width: 900px;
-  height: 105px;
-}
-header:first-child {
-  display: flex;
+  margin: auto;
   width: 900px;
-
-  position: absolute;
+  height: 105px;
+  /* display: flex; */
+  position: relative;
 }
-
 .search-box {
-  /* margin: 20px 15px 20px 10px; */
   display: flex;
   top: 20px;
   left: 10px;
@@ -56,23 +55,30 @@ nav > ul {
 .sep {
   margin: 0 16px;
 }
-
+.change-lang {
+  position: absolute;
+  top: 20px;
+  left: 180px;
+}
 .change-lang > a {
   font-size: 12px;
   font-weight: bold;
   color: white;
   text-decoration: none;
 }
-.input {
-  /* height: 19px; */
-}
+
 input {
   width: 132px;
   border: 0 none;
   height: 19px;
   border-top-right-radius: 6px;
-  /* color: #000; */
 }
 ::placeholder {
   color: #000;
+}
+
+.logo {
+  position: absolute;
+  bottom: -20px;
+  right: -8px;
 }
