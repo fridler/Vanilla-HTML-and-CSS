@@ -53,11 +53,40 @@ nav > ul {
   font-size: 15px;
   font-weight: bold;
 }
+.dropdown > a {
+  padding-bottom: 33px;
+}
+.dropdown > a:hover,
+.dropdown-content > a:hover {
+  color: #005ca0;
 
-.dropdown-content {
-  display: none;
+  text-decoration: underline;
 }
 
+.dropdown:hover > .dropdown-content {
+  width: 100%;
+  display: block;
+  width: fit-content;
+  background-color: rgb(144, 144, 144);
+}
+.dropdown-content {
+  top: 33px;
+  display: none;
+  position: absolute;
+}
+.dropdown-content > a:hover {
+  background-color: #bcbcbc;
+}
+.dropdown-content > a {
+  padding: 5px;
+  display: block;
+}
+hr {
+  background-color: rgb(171, 171, 171);
+  height: 1px;
+  border: 0;
+  margin: 0;
+}
 .sep {
   margin: 0 16px;
 }
