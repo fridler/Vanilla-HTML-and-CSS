@@ -327,3 +327,129 @@ footer {
 .right-side > img {
   /* position: absolute; */
 }
+
+section {
+  width: 440px;
+  position: relative;
+  right: 144px;
+  /* top: 50px; */
+}
+
+.way-bar > a,
+.way-bar {
+  font-size: 12px;
+  color: #000;
+  text-decoration: none;
+  margin-bottom: 25px;
+}
+.way-bar > a:hover {
+  text-decoration: underline;
+  color: #005ca0;
+}
+section > .title > p {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  border-bottom: 1.25px solid;
+  padding-bottom: 4px;
+}
+.contact-form {
+  display: flex;
+}
+.form {
+  width: 347px;
+  position: absolute;
+  padding: 0 18px;
+}
+.form > p:nth-child(1) {
+  color: #005ca0;
+  font-weight: bold;
+  font-size: 15px;
+}
+.form > p:nth-child(2) {
+  font-size: 13px;
+  font-weight: bold;
+}
+.form > p:nth-child(3) {
+  font-size: 12px;
+}
+.fields {
+  width: 245px;
+  font-size: 12px;
+  margin-right: 51px;
+  /* margin: 10px auto 0; */
+}
+.fields > .line-form {
+  display: block;
+  padding: 3px 0 3px 0;
+}
+.fields > .line-form > label {
+  position: relative;
+  display: inline-block;
+  width: 75px;
+}
+
+.fields > .line-form > input {
+  border: #000 solid 1.25px;
+  width: 160px;
+  height: 17px;
+  border-radius: 0;
+}
+.line-form > textarea {
+  /* float: right; */
+  position: relative;
+  width: 235px;
+  height: 100px;
+  border: #000 solid 1.25px;
+}
+
+button {
+  float: left;
+  position: relative;
+  background-color: rgb(0, 0, 238);
+  color: white;
+}
+button:hover {
+  background-color: orange;
+  color: #000;
+}
+
+.left-side {
+  width: 292px;
+  margin-top: 56px;
+  position: relative;
+  right: 168px;
+}
+
+.contact-up,
+.contact-down {
+  position: relative;
+}
+.contact-up > .form-side,
+.contact-down > .form-side {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  /* margin: 50px; */
+}
+
+.form-side > p:nth-child(1) {
+  color: #005ca0;
+  font-weight: bold;
+  font-size: 15px;
+}
+.form-side > p:nth-child(2),
+.form-side > p:nth-child(4) {
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0;
+}
+.form-side > p:nth-child(3),
+.form-side > p:nth-child(5) {
+  margin: 0;
+  font-size: 12px;
+}
+.form-side > p > a:hover {
+  text-decoration: underline !important;
+  color: #005ca0 !important;
+}
