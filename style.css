@@ -6,19 +6,13 @@ body {
   line-height: 1;
   width: 100%;
   height: 2000px;
-  /* border: solid; */
 }
 .container {
+  /* width: 900px; */
+  margin: auto;
   background-color: rgb(144, 144, 144);
 }
-footer {
-  border: solid;
-  margin: auto;
-  width: 100%;
-  height: 38px;
-  position: fixed;
-  bottom: 0;
-}
+
 main {
   margin: auto;
   margin-top: 30px;
@@ -270,4 +264,34 @@ input {
   position: relative;
   right: 130px;
   bottom: 10px;
+}
+footer {
+  background-color: rgb(144, 144, 144);
+  margin: auto;
+  width: 100%;
+  height: 38px;
+  position: fixed;
+  bottom: 0;
+}
+.f-container {
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  width: max-content;
+  top: 16px;
+}
+.f-container > a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+.f-container > a:nth-child(even) {
+  margin: 0 5px;
+}
+.f-container > a:last-child {
+  color: red;
+}
+.f-container > a:hover {
+  text-decoration: underline;
+  color: #005ca0;
 }
