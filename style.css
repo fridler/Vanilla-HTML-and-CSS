@@ -18,6 +18,11 @@ footer {
   position: fixed;
   bottom: 0;
 }
+main {
+  margin: auto;
+  margin-top: 30px;
+  width: 900px;
+}
 header {
   margin: auto;
   width: 900px;
@@ -116,4 +121,12 @@ input {
   position: absolute;
   bottom: -20px;
   right: -8px;
+}
+
+.images {
+  display: flex;
+}
+
+.img-2 {
+  margin: 0 10px;
 }
