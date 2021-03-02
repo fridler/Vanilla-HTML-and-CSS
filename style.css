@@ -5,6 +5,7 @@ body {
   margin: 0 auto;
   line-height: 1;
   width: 100%;
+  height: 3000px;
 }
 .container {
   min-width: 900px;
@@ -431,6 +432,9 @@ button:hover {
   top: 0;
   right: 20px;
   /* margin: 50px; */
+}
+.contact-down {
+  margin-top: 28px;
 }
 
 .form-side > p:nth-child(1) {
