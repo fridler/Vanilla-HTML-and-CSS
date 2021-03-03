@@ -12,7 +12,12 @@ body {
 .container {
   min-width: 900px;
   margin: auto;
-  background-color: rgb(144, 144, 144);
+  background: linear-gradient(
+    0deg,
+    rgba(220, 220, 220, 1) 5%,
+    rgba(172, 172, 172, 1) 25%,
+    rgba(144, 144, 144, 1) 100%
+  );
 }
 
 main {
@@ -69,7 +74,12 @@ nav > ul {
   width: 100%;
   display: block;
   width: fit-content;
-  background-color: rgb(144, 144, 144);
+  background: linear-gradient(
+    180deg,
+    rgba(220, 220, 220, 1) 5%,
+    rgba(172, 172, 172, 1) 11%,
+    rgba(144, 144, 144, 1) 100%
+  );
 }
 .dropdown-content {
   top: 33px;
