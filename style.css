@@ -409,7 +409,10 @@ section > .title > p {
   position: relative;
   width: 235px;
   height: 100px;
+  color: #6d6d6d;
   border: #808992 solid 1px;
+  font-family: Arial;
+  font-size: 12px;
 }
 .fields > a {
   float: left;
