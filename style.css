@@ -141,10 +141,10 @@ input {
   left: 48px;
   margin: 0 auto;
   padding: 10px;
-  background: rgba(127, 127, 127, 0.9); /* Black background with 0.5 opacity */
+  background: rgba(127, 127, 127, 0.9);
   color: #f1f1f1;
-  width: 228px;
-  height: 77px;
+  width: 248px;
+  height: 97px;
   border-bottom-right-radius: 15px;
 }
 
@@ -202,6 +202,7 @@ input {
   /* padding: 0 24px; */
 }
 .overlay-cube {
+  color: rgb(87, 87, 87);
   position: absolute;
   padding: 0 24px;
 }
@@ -228,7 +229,7 @@ input {
 .overlay-cube-text > a {
   font-size: 12px;
   text-decoration: none;
-  color: #000;
+  color: #72716d;
 }
 .overlay-cube-text > a:hover {
   color: #005ca0;
@@ -245,16 +246,16 @@ input {
 
 .overlay-cube-text-left {
   position: relative;
-  /* margin-top: 0; */
   bottom: 15px;
   margin-bottom: 20px;
   float: right;
 }
 
 .overlay-cube-text-left > a {
+  width: 38px;
   font-size: 12px;
   text-decoration: none;
-  color: #000;
+  color: #72716d;
 }
 .overlay-cube-text-left > a:hover {
   color: #005ca0;
@@ -341,7 +342,7 @@ section {
 .way-bar > a,
 .way-bar {
   font-size: 12px;
-  color: #000;
+  color: #5c5c5c;
   text-decoration: none;
   margin-bottom: 25px;
 }
@@ -350,6 +351,7 @@ section {
   color: #005ca0;
 }
 section > .title > p {
+  color: #72716d;
   font-size: 15px;
   font-weight: bold;
   margin-bottom: 12px;
@@ -370,10 +372,13 @@ section > .title > p {
   font-size: 15px;
 }
 .form > p:nth-child(2) {
+  color: #6d6d6d;
+
   font-size: 13px;
   font-weight: bold;
 }
 .form > p:nth-child(3) {
+  color: #72716d;
   font-size: 12px;
 }
 .fields {
@@ -390,10 +395,11 @@ section > .title > p {
   position: relative;
   display: inline-block;
   width: 75px;
+  color: #6d6d6d;
 }
 
 .fields > .line-form > input {
-  border: #000 solid 1.25px;
+  border: #808992 solid 1px;
   width: 160px;
   height: 17px;
   border-radius: 0;
@@ -403,18 +409,22 @@ section > .title > p {
   position: relative;
   width: 235px;
   height: 100px;
-  border: #000 solid 1.25px;
+  border: #808992 solid 1px;
 }
-
-button {
+.fields > a {
   float: left;
   position: relative;
-  background-color: rgb(0, 0, 238);
-  color: white;
 }
-button:hover {
-  background-color: orange;
-  color: #000;
+
+.fields > a {
+  background: url(images/bt_blue.png);
+  width: 45px;
+  height: 21px;
+}
+.fields > a:hover {
+  width: 45px;
+  height: 21px;
+  background: url(images/bt_orange.png);
 }
 
 .left-side {
@@ -433,6 +443,7 @@ button:hover {
   position: absolute;
   top: 0;
   right: 20px;
+  color: #6d6d6d;
   /* margin: 50px; */
 }
 .contact-down {
