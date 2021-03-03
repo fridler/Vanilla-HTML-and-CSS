@@ -14,8 +14,8 @@ body {
   margin: auto;
   background: linear-gradient(
     0deg,
-    rgba(220, 220, 220, 1) 5%,
-    rgba(172, 172, 172, 1) 25%,
+    rgba(200, 200, 200, 1) 5%,
+    rgba(172, 172, 172, 1) 17%,
     rgba(144, 144, 144, 1) 100%
   );
 }
@@ -76,8 +76,8 @@ nav > ul {
   width: fit-content;
   background: linear-gradient(
     180deg,
-    rgba(220, 220, 220, 1) 5%,
-    rgba(172, 172, 172, 1) 11%,
+    rgba(200, 200, 200, 1) 5%,
+    rgba(172, 172, 172, 1) 14%,
     rgba(144, 144, 144, 1) 100%
   );
 }
